@@ -22,11 +22,23 @@ let Farkas = document.getElementById("farkas")
 let Kaposzta = document.getElementById("kaposzta")
 let Kecske = document.getElementById("kecske")
 
+let pElem= document.querySelector("article >p:nth-child(1)")
+let jobbElem = document.querySelector("#jobb")
+
+pElem.addEventListener("click", athelyez)
+
+function athelyez(event){
+    jobbElem.appendChild(event.target)
+}
+
+pElem.addEventListener("mouseover", feltesz)
+
 function feltesz(){
     pElem.classList.add("szegely")
 }
 
+function kiemel(){
+    pElem.classList.add("kiemel")
+}
 
 
-
-//pElem.addEventListener("click", athelyez)

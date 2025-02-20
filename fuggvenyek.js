@@ -10,12 +10,12 @@ pElem.addEventListener("click", athelyez)
 pElem.addEventListener("mouseover", feltesz)
 BalElem3[0].innerHTML+="<p>Írj oda amit akarsz</p>"
 
-let tomb = []
+/*let tomb = []
 Image.addEventListener
 function kepreKattintas(){
     tomb.push(event.target.src)
     console.log(tomb)
-}
+}*/
 
 let tartalomElem = document.getElementsByClassName("tartalom")
 console.log(tartalomElem)
